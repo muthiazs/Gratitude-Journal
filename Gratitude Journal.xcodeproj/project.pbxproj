@@ -1,0 +1,555 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXContainerItemProxy section */
+		04D5156A2E5F36B900E4CF16 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 04D515542E5F36B800E4CF16 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 04D5155B2E5F36B800E4CF16;
+			remoteInfo = "Gratitude Journal";
+		};
+		04D515742E5F36B900E4CF16 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 04D515542E5F36B800E4CF16 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 04D5155B2E5F36B800E4CF16;
+			remoteInfo = "Gratitude Journal";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		04D5155C2E5F36B800E4CF16 /* Gratitude Journal.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Gratitude Journal.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		04D515692E5F36B900E4CF16 /* Gratitude JournalTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Gratitude JournalTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		04D515732E5F36B900E4CF16 /* Gratitude JournalUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Gratitude JournalUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFileSystemSynchronizedRootGroup section */
+		04D5155E2E5F36B800E4CF16 /* Gratitude Journal */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = "Gratitude Journal";
+			sourceTree = "<group>";
+		};
+		04D5156C2E5F36B900E4CF16 /* Gratitude JournalTests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = "Gratitude JournalTests";
+			sourceTree = "<group>";
+		};
+		04D515762E5F36B900E4CF16 /* Gratitude JournalUITests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = "Gratitude JournalUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXFileSystemSynchronizedRootGroup section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		04D515592E5F36B800E4CF16 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		04D515662E5F36B900E4CF16 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		04D515702E5F36B900E4CF16 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		04D515532E5F36B800E4CF16 = {
+			isa = PBXGroup;
+			children = (
+				04D5155E2E5F36B800E4CF16 /* Gratitude Journal */,
+				04D5156C2E5F36B900E4CF16 /* Gratitude JournalTests */,
+				04D515762E5F36B900E4CF16 /* Gratitude JournalUITests */,
+				04D5155D2E5F36B800E4CF16 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		04D5155D2E5F36B800E4CF16 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				04D5155C2E5F36B800E4CF16 /* Gratitude Journal.app */,
+				04D515692E5F36B900E4CF16 /* Gratitude JournalTests.xctest */,
+				04D515732E5F36B900E4CF16 /* Gratitude JournalUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		04D5155B2E5F36B800E4CF16 /* Gratitude Journal */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 04D5157D2E5F36B900E4CF16 /* Build configuration list for PBXNativeTarget "Gratitude Journal" */;
+			buildPhases = (
+				04D515582E5F36B800E4CF16 /* Sources */,
+				04D515592E5F36B800E4CF16 /* Frameworks */,
+				04D5155A2E5F36B800E4CF16 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			fileSystemSynchronizedGroups = (
+				04D5155E2E5F36B800E4CF16 /* Gratitude Journal */,
+			);
+			name = "Gratitude Journal";
+			packageProductDependencies = (
+			);
+			productName = "Gratitude Journal";
+			productReference = 04D5155C2E5F36B800E4CF16 /* Gratitude Journal.app */;
+			productType = "com.apple.product-type.application";
+		};
+		04D515682E5F36B900E4CF16 /* Gratitude JournalTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 04D515802E5F36B900E4CF16 /* Build configuration list for PBXNativeTarget "Gratitude JournalTests" */;
+			buildPhases = (
+				04D515652E5F36B900E4CF16 /* Sources */,
+				04D515662E5F36B900E4CF16 /* Frameworks */,
+				04D515672E5F36B900E4CF16 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				04D5156B2E5F36B900E4CF16 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				04D5156C2E5F36B900E4CF16 /* Gratitude JournalTests */,
+			);
+			name = "Gratitude JournalTests";
+			packageProductDependencies = (
+			);
+			productName = "Gratitude JournalTests";
+			productReference = 04D515692E5F36B900E4CF16 /* Gratitude JournalTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		04D515722E5F36B900E4CF16 /* Gratitude JournalUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 04D515832E5F36B900E4CF16 /* Build configuration list for PBXNativeTarget "Gratitude JournalUITests" */;
+			buildPhases = (
+				04D5156F2E5F36B900E4CF16 /* Sources */,
+				04D515702E5F36B900E4CF16 /* Frameworks */,
+				04D515712E5F36B900E4CF16 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				04D515752E5F36B900E4CF16 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				04D515762E5F36B900E4CF16 /* Gratitude JournalUITests */,
+			);
+			name = "Gratitude JournalUITests";
+			packageProductDependencies = (
+			);
+			productName = "Gratitude JournalUITests";
+			productReference = 04D515732E5F36B900E4CF16 /* Gratitude JournalUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		04D515542E5F36B800E4CF16 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1640;
+				LastUpgradeCheck = 1640;
+				TargetAttributes = {
+					04D5155B2E5F36B800E4CF16 = {
+						CreatedOnToolsVersion = 16.4;
+					};
+					04D515682E5F36B900E4CF16 = {
+						CreatedOnToolsVersion = 16.4;
+						TestTargetID = 04D5155B2E5F36B800E4CF16;
+					};
+					04D515722E5F36B900E4CF16 = {
+						CreatedOnToolsVersion = 16.4;
+						TestTargetID = 04D5155B2E5F36B800E4CF16;
+					};
+				};
+			};
+			buildConfigurationList = 04D515572E5F36B800E4CF16 /* Build configuration list for PBXProject "Gratitude Journal" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 04D515532E5F36B800E4CF16;
+			minimizedProjectReferenceProxies = 1;
+			preferredProjectObjectVersion = 77;
+			productRefGroup = 04D5155D2E5F36B800E4CF16 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				04D5155B2E5F36B800E4CF16 /* Gratitude Journal */,
+				04D515682E5F36B900E4CF16 /* Gratitude JournalTests */,
+				04D515722E5F36B900E4CF16 /* Gratitude JournalUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		04D5155A2E5F36B800E4CF16 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		04D515672E5F36B900E4CF16 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		04D515712E5F36B900E4CF16 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		04D515582E5F36B800E4CF16 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		04D515652E5F36B900E4CF16 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		04D5156F2E5F36B900E4CF16 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		04D5156B2E5F36B900E4CF16 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 04D5155B2E5F36B800E4CF16 /* Gratitude Journal */;
+			targetProxy = 04D5156A2E5F36B900E4CF16 /* PBXContainerItemProxy */;
+		};
+		04D515752E5F36B900E4CF16 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 04D5155B2E5F36B800E4CF16 /* Gratitude Journal */;
+			targetProxy = 04D515742E5F36B900E4CF16 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		04D5157B2E5F36B900E4CF16 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.5;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		04D5157C2E5F36B900E4CF16 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.5;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		04D5157E2E5F36B900E4CF16 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.codewithmuthi.Gratitude-Journal";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		04D5157F2E5F36B900E4CF16 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.codewithmuthi.Gratitude-Journal";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		04D515812E5F36B900E4CF16 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.codewithmuthi.Gratitude-JournalTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Gratitude Journal.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Gratitude Journal";
+			};
+			name = Debug;
+		};
+		04D515822E5F36B900E4CF16 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.codewithmuthi.Gratitude-JournalTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Gratitude Journal.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Gratitude Journal";
+			};
+			name = Release;
+		};
+		04D515842E5F36B900E4CF16 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.codewithmuthi.Gratitude-JournalUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Gratitude Journal";
+			};
+			name = Debug;
+		};
+		04D515852E5F36B900E4CF16 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.codewithmuthi.Gratitude-JournalUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Gratitude Journal";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		04D515572E5F36B800E4CF16 /* Build configuration list for PBXProject "Gratitude Journal" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				04D5157B2E5F36B900E4CF16 /* Debug */,
+				04D5157C2E5F36B900E4CF16 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		04D5157D2E5F36B900E4CF16 /* Build configuration list for PBXNativeTarget "Gratitude Journal" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				04D5157E2E5F36B900E4CF16 /* Debug */,
+				04D5157F2E5F36B900E4CF16 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		04D515802E5F36B900E4CF16 /* Build configuration list for PBXNativeTarget "Gratitude JournalTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				04D515812E5F36B900E4CF16 /* Debug */,
+				04D515822E5F36B900E4CF16 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		04D515832E5F36B900E4CF16 /* Build configuration list for PBXNativeTarget "Gratitude JournalUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				04D515842E5F36B900E4CF16 /* Debug */,
+				04D515852E5F36B900E4CF16 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 04D515542E5F36B800E4CF16 /* Project object */;
+}
