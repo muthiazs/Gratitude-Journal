@@ -10,18 +10,18 @@ struct HomeView: View {
         
         TabView (selection: $selectedTab) {
             
-            
             TodayView(selectedTab: $selectedTab)
                 .tabItem {
                     Text("Today")
                     Image(systemName: "calendar")
                 }
                 .tag(Tab.today)
+  
             
             ThingsView()
                 .tabItem {
                     Text("Things")
-                    Image(systemName: "heart")
+                    Image(systemName: "star.circle")
                 }
                 .tag(Tab.things)
             
@@ -39,6 +39,7 @@ struct HomeView: View {
                 }
                 .tag(Tab.settings)
         }
+        .tint(.purple)
         .padding()
     }
 }

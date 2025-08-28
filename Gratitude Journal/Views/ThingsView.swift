@@ -16,7 +16,6 @@ struct ThingsView: View {
     var body: some View {
         
         VStack (spacing: 20) {
-            
             Text("Things")
                 .font(.largeTitle)
                 .bold()
@@ -89,6 +88,7 @@ struct ThingsView: View {
             }
             .buttonStyle(.borderedProminent)
             .frame(maxWidth: .infinity, alignment: .center)
+            .tint(.purple)
             
             Spacer()
         }

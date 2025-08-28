@@ -16,6 +16,8 @@ struct TodayView: View {
         
         VStack(spacing: 20) {
             
+            
+            
             Text("Hi there 👋🏻")
                 .font(.largeTitle)
                 .bold()
@@ -35,12 +37,13 @@ struct TodayView: View {
             else {
                 // TODO: Display the image and some tool tips
                 Spacer()
-                Image("today")
+                Image("home")
                     .resizable()
                     .aspectRatio(contentMode: .fit)
                     .frame(maxWidth: 300)
                 
                 ToolTipView(text: "Take a moment to pause and write down the little blessings that made your day brighter")
+                
                     
                 Button {
                     // Switch to Things tab
@@ -49,11 +52,11 @@ struct TodayView: View {
                     Text("Log")
                 }
                 .buttonStyle(.borderedProminent)
-
-                
+                .tint(.purple)
                 
                 Spacer()
             }
+            
             
             
         }

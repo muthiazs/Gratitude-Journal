@@ -8,12 +8,12 @@ struct ToolTipView: View {
     
     var body: some View {
         Text(text)
-            .foregroundStyle(Color.blue)
+            .foregroundStyle(.purple)
             .padding()
             .background {
                 RoundedRectangle(cornerRadius: 10)
-                    .strokeBorder(Color.blue, lineWidth: 1)
-                    .background(Color("light-blue"))
+                    .strokeBorder(.purple, lineWidth: 1)
+                    .background(.purple.opacity(0.1)) // biar ada soft bg
             }
     }
 }
